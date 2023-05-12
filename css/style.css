@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Roboto', sans-serif;
+}
+@media(min-width:320px){
+	.container{
+	width:100%;
+	margin:auto;
+	}
+	.taxi-col{
+	width:100%;
+	}
+}
+@media(min-width:620px){
+	.container{
+	width:100%;
+	margin:auto;
+	}
+	.taxi-col{
+	width:100%;
+	}
+}
+@media(min-width:1000px){
+	.container{
+	width:90%;
+	margin:auto;
+	}
+	.taxi-row{
+	display:flex;
+	gap:20px;
+	}
+
+	.taxi-col{
+	width:33.3%;
+	}
+}
+.taxi-head{
+	text-align:center;
+	padding: 20px 0;
+}
+.taxi-card{
+	border: 1px solid #808080ab;
+    position: relative;
+    border-radius: 15px;
+}
+img{
+	width:100%;
+	vertical-align:middle;
+}
+.card-head{
+	text-align:center;
+}
+p{
+	color: #f6bd11;
+	padding-bottom: 15px;
+	font-weight: 700;
+}
+.card-head p{
+	padding-top: 7px;
+    font-size: 14px;
+	font-weight: bold;
+}
+.card-body{
+	border:1px solid;
+	margin:20px;
+	padding: 10px 15px;
+	border-radius: 30px;
+    background-color: #000000de;
+    color: white;
+}
+.card-body ul{
+	padding: 50px 0 20px;
+}
+.card-body ul li{
+	list-style-type:none;
+	display: flex;
+    justify-content: space-between;
+	text-transform: capitalize;
+	    padding-bottom: 15px;
+}
+.card-body ul li i{
+	padding-right: 10px;
+   color: #f6bd11;
+}
+.taxi-plan{
+	text-align:center;
+	padding-bottom: 20px;
+}
+.car-img{
+	width: 72px;
+    height: 72px;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #f6bd11;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: none;
+}
+.card-body a{
+	text-decoration: none;
+    border-radius: 15px;
+    border: 1px solid;
+    padding:10px 25px;
+    background-color: #f6bd11;
+    color: black;
+}
